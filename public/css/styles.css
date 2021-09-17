@@ -5,6 +5,31 @@ body {
   color: #40514e;
 }
 
+#title {
+  background-color: #90b1ab;
+  color: #fff;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Merriweather", serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Merriweather", serif;
+  font-weight: normal;
+}
+
 h1 {
   width: 50%;
   font-size: 5.625em;
@@ -47,7 +72,7 @@ hr {
   background-color: #e6fff8;
   position: relative;
   padding-top: 100px;
-  height: 660px;
+  height: 800px;
   line-height: 2em;
 }
 
