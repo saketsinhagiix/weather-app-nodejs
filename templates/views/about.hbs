@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Saket's Website</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" href="icon/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allison&family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <script src="../src/app.js"></script>
+</head>
+
+<body>
+  {{>header}}
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Saket.</h1>
+    <h2 class="web-developer">a <span class="web">web</span>-developer</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="my-photo" src="images\myPhotobwCircle.png" alt="saket-brij-sinha">
+      <h2>Hi, i'm <strong style="color: hsl(179deg 91% 36%);">Saket Sinha!</strong></h2>
+      <p class="about-me">
+        I am Assistant Software Developer at <a href="https://giix.ai/">Global information interchnage Xchange</a>. I have worked in <a href="https://en.wikipedia.org/wiki/Mechanical_engineering">Mechanical Engineering</a> field for almost 2
+        years
+        as
+        Service Engineer at <a href="https://koel.kirloskar.com/">Kirloskar Oil Engines Limited (KOEL)</a> since I have done my graduation in <a href="https://en.wikipedia.org/wiki/Bachelor_of_Technology">Bachelor of Technology</a> in <a
+          href="https://en.wikipedia.org/wiki/Mechanical_engineering">Mechanical Engineering</a>
+        from <a href="https://www.lpu.in/">Lovely Professional University</a>, Punjab. I am currently working as <a href="https://en.wikipedia.org/wiki/Web_developer">Web Developer</a> to learn more about coding in different languages so that I
+        can
+        use
+        them in my upcoming project which requires knowledge of
+        both <a href="https://en.wikipedia.org/wiki/Mechanical_engineering">Mechanical Engineering</a> and
+        <a href="https://en.wikipedia.org/wiki/Information_technology">Information Technology</a>.
+      </p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <!-- <img class="html-icon" src="icon\html.png" alt="html"> -->
+        <img class="html-logo" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" alt="html-image">
+        <h3 class="skill-heading">HTML</h3>
+        <p class="about-skill">
+          HTML is one of my favourite language. I had started working on HTML when I was in High School. I had always interest in computer when I was kid. And for kid who didn't have knowledge of how any website worked during early time, it was a
+          big
+          thing to make his own page even it was just a single page. That is how I started working on HTML and got my interest in this.
+        </p>
+      </div>
+      <div class="skill-row">
+        <img class="creo" src="https://img.icons8.com/flat-round/452/ptc-creo.png" alt="creo-icon">
+        <h3 class="skill-heading">Parametric Creo</h3>
+        <p class="about-skill">
+          This is the second best thing that I have learnt. Creo is basically a 3D/2D designing software. It allows user to create anyhthing in 3D Model even assemble different 3D models to make a single working unit. For example, we can create
+          different engine parts small like bolts to big like flywheels and gears. Then we can assemble all parts to make a working engine in this software. We can see animation of working engine and even can do analysis on it to check effect of
+          different mechancial load parameters on our model. So, it is very useful tool for any Design Engineer.
+        </p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love designing as much I do.</h3>
+      <p class="more-details">For more details, click on the following link to contact me.</p>
+      <button class="button" onclick="document.location = 'mailto:samleonhart0407@gmail.com'" type="button">CONTACT ME</button>
+    </div>
+  </div>
+
+  <div class="bottom-container"><strong>
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© 2021 Saket Sinha</p></strong>
+  </div>
+{{>footer}}
+</body>
+
+</html>
