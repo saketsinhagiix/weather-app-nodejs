@@ -6,6 +6,7 @@ const geocode = require('./utils/geocode');
 const forecast = require('./utils/forecast');
 
 const cl = console.log;
+const port = process.env.PORT || 3000;
 const app = express();
 
 //Define path for express config:
@@ -121,6 +122,6 @@ app.get('*', (req, res) => {
 // Listen on a specific port for the moment, we're going to use a common development port, which is Port 3000.
 // The second other optional argument we can pass to the listen method is a callback function, which just
 // runs when the server is up and running.
-app.listen(3000, () => {
-    cl('Server is up on port 3000.');
+app.listen(port, () => {
+    cl('Server is up on port ' + port + '.');
 });
