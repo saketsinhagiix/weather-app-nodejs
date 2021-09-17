@@ -90,35 +90,7 @@ app.get('/products', (req, res) => {
     });
 });
 
-// cl(__dirname);
-// cl(path.join(__dirname, '../public/AboutMe'));
-// const tinDogWebsite = path.join(__dirname, '../public/TinDogWebsite');
-// app.use(express.static(tinDogWebsite));
-//app.get(url, the fuction that will return send something on that url);
-// app.get('', (req, res) => { //home page
-//     res.send('<h1>Weather</h1>') 
-// });
-
-// app.get('/help', (req, res) => { // home/help page in url
-//     res.send([
-//         {
-//         name: 'Saket',
-//     },
-//     {
-//         name: 'Sam'
-//     },
-//     { 
-//         name: 'Sobhit'
-//     }
-// ]);
-// });
-
-// app.get('/about', (req, res) => { // home/about page in url
-//     res.send('<h1 style="color: green;">About page!</h1>') 
-// });
-
 //'*' mean everything else than what url we have, in express we represent it like this
-
 app.get('/help/*', (req, res) => {
     res.render('404', {
         title: '404',
